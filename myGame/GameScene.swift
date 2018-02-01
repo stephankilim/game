@@ -28,7 +28,7 @@ class GameScene: SKScene {
     background.position = CGPoint(x: 0, y: 0)
     background.anchorPoint = CGPoint(x: 0, y: 1.0)
     addChild(background)
-}override func update(_ currentTime: TimeInterval) {
+    };override func update(_ currentTime: TimeInterval) {
         // Called before each frame is rendered
     }
 

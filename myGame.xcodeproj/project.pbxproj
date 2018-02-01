@@ -7,28 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD1986912022A00F00A050FD /* Blocs in Resources */ = {isa = PBXBuildFile; fileRef = AD1986902022A00F00A050FD /* Blocs */; };
+		AD1986932022A02D00A050FD /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1986922022A02D00A050FD /* Block.swift */; };
+		AD1986952022A7E300A050FD /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1986942022A7E300A050FD /* Shape.swift */; };
+		AD1986972022B6B000A050FD /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD1986962022B6B000A050FD /* SquareShape.swift */; };
 		ADF26DB8201C09E200702290 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF26DB7201C09E200702290 /* AppDelegate.swift */; };
-		ADF26DBC201C09E200702290 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = ADF26DBB201C09E200702290 /* Actions.sks */; };
 		ADF26DBE201C09E200702290 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF26DBD201C09E200702290 /* GameScene.swift */; };
 		ADF26DC0201C09E200702290 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF26DBF201C09E200702290 /* GameViewController.swift */; };
 		ADF26DC3201C09E200702290 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF26DC1201C09E200702290 /* Main.storyboard */; };
 		ADF26DC5201C09E200702290 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADF26DC4201C09E200702290 /* Assets.xcassets */; };
 		ADF26DC8201C09E200702290 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADF26DC6201C09E200702290 /* LaunchScreen.storyboard */; };
-		ADF26DD4201C0D4D00702290 /* Blocs in Resources */ = {isa = PBXBuildFile; fileRef = ADF26DD3201C0D4D00702290 /* Blocs */; };
 		ADF26DD6201C1B5000702290 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF26DD5201C1B5000702290 /* Array2D.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD1986902022A00F00A050FD /* Blocs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Blocs; sourceTree = "<group>"; };
+		AD1986922022A02D00A050FD /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
+		AD1986942022A7E300A050FD /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		AD1986962022B6B000A050FD /* SquareShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareShape.swift; sourceTree = "<group>"; };
 		ADF26DB4201C09E200702290 /* myGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADF26DB7201C09E200702290 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ADF26DBB201C09E200702290 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		ADF26DBD201C09E200702290 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		ADF26DBF201C09E200702290 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		ADF26DC2201C09E200702290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ADF26DC4201C09E200702290 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADF26DC7201C09E200702290 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADF26DC9201C09E200702290 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADF26DD3201C0D4D00702290 /* Blocs */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Blocs; path = ../../../Downloads/Blocs; sourceTree = "<group>"; };
 		ADF26DD5201C1B5000702290 /* Array2D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,16 +66,18 @@
 		ADF26DB6201C09E200702290 /* myGame */ = {
 			isa = PBXGroup;
 			children = (
+				AD1986902022A00F00A050FD /* Blocs */,
 				ADF26DB7201C09E200702290 /* AppDelegate.swift */,
-				ADF26DBB201C09E200702290 /* Actions.sks */,
 				ADF26DBD201C09E200702290 /* GameScene.swift */,
 				ADF26DBF201C09E200702290 /* GameViewController.swift */,
-				ADF26DD3201C0D4D00702290 /* Blocs */,
 				ADF26DC1201C09E200702290 /* Main.storyboard */,
 				ADF26DC4201C09E200702290 /* Assets.xcassets */,
 				ADF26DC6201C09E200702290 /* LaunchScreen.storyboard */,
 				ADF26DC9201C09E200702290 /* Info.plist */,
 				ADF26DD5201C1B5000702290 /* Array2D.swift */,
+				AD1986922022A02D00A050FD /* Block.swift */,
+				AD1986942022A7E300A050FD /* Shape.swift */,
+				AD1986962022B6B000A050FD /* SquareShape.swift */,
 			);
 			path = myGame;
 			sourceTree = "<group>";
@@ -135,11 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1986912022A00F00A050FD /* Blocs in Resources */,
 				ADF26DC3201C09E200702290 /* Main.storyboard in Resources */,
-				ADF26DD4201C0D4D00702290 /* Blocs in Resources */,
 				ADF26DC5201C09E200702290 /* Assets.xcassets in Resources */,
 				ADF26DC8201C09E200702290 /* LaunchScreen.storyboard in Resources */,
-				ADF26DBC201C09E200702290 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,7 +155,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD1986972022B6B000A050FD /* SquareShape.swift in Sources */,
 				ADF26DBE201C09E200702290 /* GameScene.swift in Sources */,
+				AD1986952022A7E300A050FD /* Shape.swift in Sources */,
+				AD1986932022A02D00A050FD /* Block.swift in Sources */,
 				ADF26DD6201C1B5000702290 /* Array2D.swift in Sources */,
 				ADF26DC0201C09E200702290 /* GameViewController.swift in Sources */,
 				ADF26DB8201C09E200702290 /* AppDelegate.swift in Sources */,
