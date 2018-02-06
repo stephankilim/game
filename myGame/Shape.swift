@@ -50,6 +50,10 @@ let ThirdBlockIdx: Int = 2
 let FourthBlockIdx: Int = 3
 
 class Shape: Hashable, CustomStringConvertible {
+    static func ==(lhs: Shape, rhs: Shape) -> Bool {
+        <#code#>
+    }
+    
     // The color of the shape
     let color:BlockColor
 
@@ -115,7 +119,13 @@ self.orientation = orientation
     }
     
 }
-    static func ==(lhs: Shape, rhs: Shape) -> Bool {
+    final func rotateBlocks(orientation: Orientation) {
+        guard let blockRowColumnTranslation:Array<(columnDiff: Int, rowDiff: Int)> = blockRowColumnPositions[orientation]
+            else {
+            return
+        }
+        
+   func ==(lhs: Shape, rhs: Shape) -> Bool {
     return lhs.row == rhs.row && lhs.column == rhs.column
 }
 }
