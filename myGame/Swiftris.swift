@@ -15,6 +15,7 @@ let StartingRow = 0
 let PreviewColumn = 12
 let PreviewRow = 1
 
+}
 class Swiftris {
     var blockArray:Array2D<Block>
     var nextShape:Shape?
